@@ -18,7 +18,20 @@
         ";
       });
     </script>
-
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const img = document.createElement("img");
+    img.src = "https://upload.wikimedia.org/wikipedia/commons/e/ee/Photography_is_in_my_heart.jpg";
+    img.alt = "Heart";
+    img.style.maxWidth = "90%";
+    img.style.display = "block";
+    img.style.margin = "1rem auto";
+    img.style.borderRadius = "16px";
+    img.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+    document.getElementById("root").appendChild(img);
+  });
+</script>
+    
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
