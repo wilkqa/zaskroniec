@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,15 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <script>
+      // Prosty sposób na pokazanie "Kocham Cię" bez Reacta
+      document.addEventListener("DOMContentLoaded", () => {
+        const root = document.getElementById("root");
+        root.innerHTML = "<h1 style='text-align:center;'>Kocham Cię</h1>";
+      });
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
